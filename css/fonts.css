@@ -38,3 +38,14 @@
 	font-style: normal;
 	font-weight: normal;
 }
+/* font-family: "Bukhariscript-400-normal"; */
+@font-face {
+	font-family: "Alfaslab";
+	src: url("../fonts/alfaslab-400-normal/alfaslab-400-normal.eot");
+	src: url("../fonts/alfaslab-400-normal/alfaslab-400-normal.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/alfaslab-400-normal/alfaslab-400-normal.woff") format("woff"),
+	url("../fonts/alfaslab-400-normal/alfaslab-400-normal.ttf") format("truetype");
+    url("../fonts/alfaslab-400-normal/alfaslab-400-normal.svg) format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
