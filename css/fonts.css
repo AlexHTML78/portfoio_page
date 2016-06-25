@@ -38,7 +38,7 @@
 	font-style: normal;
 	font-weight: normal;
 }
-/* font-family: "Bukhariscript-400-normal"; */
+/* font-family: "/Alfaslab-400-normal"; */
 @font-face {
 	font-family: "Alfaslab";
 	src: url("../fonts/alfaslab-400-normal/alfaslab-400-normal.eot");
@@ -46,6 +46,17 @@
 	url("../fonts/alfaslab-400-normal/alfaslab-400-normal.woff") format("woff"),
 	url("../fonts/alfaslab-400-normal/alfaslab-400-normal.ttf") format("truetype");
     url("../fonts/alfaslab-400-normal/alfaslab-400-normal.svg) format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "/Montserrat-Bold"; */
+@font-face {
+	font-family: "Montserrat-Bold";
+	src: url("..fonts/Montserrat-Bold/Montserrat-Bold.eot");
+	src: url("../fonts/Montserrat-Bold/Montserrat-Bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Montserrat-Bold/Montserrat-Bold.woff") format("woff"),
+	url("../fonts/Montserrat-Bold/Montserrat-Bold.ttf") format("truetype");
+    url("../fonts/Montserrat-Bold/Montserrat-Bold.svg) format('svg');
 	font-style: normal;
 	font-weight: normal;
 }
