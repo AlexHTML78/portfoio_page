@@ -45,6 +45,7 @@ a {
 .header {
     background-image: url(../img/header_bg.jpeg);
     background-position: center;
+    min-height: 50em;
     margin: 0 auto;
     background-repeat: no-repeat;   
     height: 100%;
@@ -71,14 +72,20 @@ a {
 
 .logo {
     float: left;
-    min-width: 50%;
+    min-width: 30%;
     height: 3.750em;
     cursor: pointer;
+    margin-top: -0.7em;
+}
+
+.logo h1:hover {
+    color: #fff;
 }
 
 .logo h1{
     font-family: "Alfaslab", sans-serif;
     font-size: 1.87em;
+    color: #000;
 }
 
 .menu {
@@ -96,15 +103,33 @@ a {
 .menu li {
     display: inline-block;
     font-size: 16px;  
-    margin-top: 2.188em;
+    height: 3.750em;
 }
 
 
 .menu a {
+    display: block;
     color: #000;
     font-family: "Alfaslab", sans-serif;
     text-transform: uppercase;
-    padding: 1.250em 1.563em 0.125em;
+    padding: 1.2em 1em 1.2em 1em;
+}
+
+.menu a:hover {
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    -webkit-transition: 0.255s;
+    -o-transition: 0.255s;
+    transition: 0.255s;
+}
+
+.main-mnu_button {
+    border: none;
+    background: transparent;
+    font-size: 26px;
+    color: #fff;
+    padding: 10px 15px;
+    float: right;
 }
 
 .big_icon {
@@ -113,18 +138,19 @@ a {
     height: 18.750em;
     margin: calc(50% - 18.750em) 0 0 calc(50% - 9.375em);
     border-radius: 20%;
+    padding: 0;
 }
 
 .big_icon img{
-    width: 150px;
-    height: 150px;
+    width: 9.375em;
+    height: 9.375em;
     border-radius: 50%;
-    margin: 10px 75px;
+    margin: 0.625em 4.688em 3em;
 }
 
 .big_icon h1, p {
     text-align: center;
-    margin-top: -10px;
+    margin-top: -0.625em;
     font-family: "RobotoBold";
 }
 
