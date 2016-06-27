@@ -49,14 +49,36 @@
 	font-style: normal;
 	font-weight: normal;
 }
-/* font-family: "/Montserrat-Bold"; */
+/* font-family: "TypoRoundRegular"; */
 @font-face {
-	font-family: "Montserrat-Bold";
-	src: url("..fonts/Montserrat-Bold/Montserrat-Bold.eot");
-	src: url("../fonts/Montserrat-Bold/Montserrat-Bold.eot?#iefix")format("embedded-opentype"),
-	url("../fonts/Montserrat-Bold/Montserrat-Bold.woff") format("woff"),
-	url("../fonts/Montserrat-Bold/Montserrat-Bold.ttf") format("truetype");
-    url("../fonts/Montserrat-Bold/Montserrat-Bold.svg) format('svg');
+	font-family: "TypoRoundRegular";
+	src: url("../fonts/TypoRound/typo_round_regular_demo-webfont.eot");
+	src: url("../fonts/TypoRound/typo_round_regular_demo-webfont.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/TypoRound/typo_round_regular_demo-webfont.woff") format("woff"),
+	url("../fonts/TypoRound/typo_round_regular_demo-webfont.ttf") format("truetype");
+    url("../fonts/TypoRound/typo_round_regular_demo-webfont.svg) format('svg');
 	font-style: normal;
 	font-weight: normal;
+}
+/* font-family: "TypoRoundBold"; */
+@font-face {
+	font-family: "TypoRoundBold";
+	src: url("../fonts/TypoRound/typo_round_bold_demo-webfont.eot");
+	src: url("../fonts/TypoRound/typo_round_regular_demo-webfont.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/TypoRound/typo_round_bold_demo-webfont.woff") format("woff"),
+	url("../fonts/TypoRound/typo_round_bold_demo-webfont.ttf") format("truetype");
+    url("../fonts/TypoRound/typo_round_bold_demo-webfont.svg) format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "BebasNeue Bold"; */
+@font-face {
+    font-family: "BebasNeueBold";
+	src: url("../fonts/BebasNeue/BebasNeue Bold/BebasNeueBold.eot");
+	src: url("../fonts/BebasNeue/BebasNeue Bold/BebasNeueBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/BebasNeue/BebasNeue Bold/BebasNeueBold.woff") format("woff"),
+	url("../fonts/BebasNeue/BebasNeue Bold/BebasNeueBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+  
 }

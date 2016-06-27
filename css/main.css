@@ -27,7 +27,7 @@ body textarea:required:valid {
 }
 
 /* WRITE CODE HERE */
-
+@import url(https://fonts.googleapis.com/css?family=Sonsie+One);
 html {
     height: 100%;
 }
@@ -45,10 +45,9 @@ a {
 .header {
     background-image: url(../img/header_bg.jpeg);
     background-position: center;
-    min-height: 50em;
-    margin: 0 auto;
     background-repeat: no-repeat;   
     height: 100%;
+    min-height: 35.5em;
     -webkit-background-size: cover;
     background-size: cover;
     display: -webkit-flex;
@@ -72,7 +71,7 @@ a {
 
 .logo {
     float: left;
-    min-width: 30%;
+    min-width: 20%;
     height: 3.750em;
     cursor: pointer;
     margin-top: -0.7em;
@@ -83,7 +82,7 @@ a {
 }
 
 .logo h1{
-    font-family: "Alfaslab", sans-serif;
+    font-family: 'Sonsie One', cursive;
     font-size: 1.87em;
     color: #000;
 }
@@ -91,7 +90,6 @@ a {
 .menu {
     height: 3.750em;
     float: right;
-    min-width: 50%;
 }
 
 .menu ul {
@@ -110,7 +108,7 @@ a {
 .menu a {
     display: block;
     color: #000;
-    font-family: "Alfaslab", sans-serif;
+    font-family: 'Dosis', sans-serif;
     text-transform: uppercase;
     padding: 1.2em 1em 1.2em 1em;
 }
@@ -130,6 +128,7 @@ a {
     color: #fff;
     padding: 10px 15px;
     float: right;
+    display: none;
 }
 
 .big_icon {
@@ -150,12 +149,16 @@ a {
 
 .big_icon h1, p {
     text-align: center;
-    margin-top: -0.625em;
-    font-family: "RobotoBold";
+    margin-top: -0.625em;    
+    font-family: 'Dosis', sans-serif;
 }
 
 .big_icon h1 {
-    font-family: "RobotoBold";
     font-size: 1.6em;
+    margin-bottom: 1em;
+}
+
+.big_icon p {
+    font-size: 1.1em;
 }
 
